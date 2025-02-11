@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiGlobe, FiHeart } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiGlobe, FiHeart } from 'react-icons/fi';
 
 interface MainLayoutProps {
   children: ReactNode;
