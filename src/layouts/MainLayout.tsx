@@ -19,9 +19,9 @@ export default function MainLayout({ children }: MainLayoutProps) {
             Werner Jr
           </motion.a>
           <div className="flex gap-6">
-            <NavLink href="#projects">Projects</NavLink>
-            <NavLink href="#skills">Skills</NavLink>
-            <NavLink href="#contact">Contact</NavLink>
+            <NavLink href="#skills">Tech Stack</NavLink>
+            <NavLink href="#projects">Projetos</NavLink>
+            <NavLink href="#contact">Contato</NavLink>
           </div>
         </nav>
       </header>
@@ -55,7 +55,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 </li>
                 <li>
                   <a href="#skills" className="text-gray-400 hover:text-primary transition-colors">
-                    Habilidades
+                    Tech Stack
                   </a>
                 </li>
                 <li>
