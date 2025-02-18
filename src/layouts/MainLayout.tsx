@@ -16,7 +16,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
             className="text-2xl font-heading font-bold text-gradient"
             whileHover={{ scale: 1.05 }}
           >
-            Portfolio
+            Werner Jr
           </motion.a>
           <div className="flex gap-6">
             <NavLink href="#projects">Projects</NavLink>
